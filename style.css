@@ -1,0 +1,102 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    /* Adjusted gradient to better match the image */
+    background: linear-gradient(140deg, #4a17ff 0%, #0075ff 50%, #00c4cc 100%);
+    color: white;
+    text-align: center;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+.logo {
+    font-family: 'cursive';
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.auth-buttons button {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.auth-buttons .signup {
+    /* Adjusted purple color */
+    background-color: #a855f7;
+    color: white;
+}
+
+.auth-buttons .login {
+    background-color: white;
+    color: black;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Adjusted height for better vertical alignment */
+    height: 85vh;
+}
+
+main h1 {
+    font-size: 80px;
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+main p {
+    font-size: 18px;
+    margin: 20px 0;
+    max-width: 500px;
+}
+
+.cta-buttons button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.cta-buttons .start-designing {
+    background-color: white;
+    color: black;
+}
+
+.cta-buttons .explore-launches {
+    /* Made background transparent and increased border width */
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
